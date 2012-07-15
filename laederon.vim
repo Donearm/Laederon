@@ -71,8 +71,7 @@ let s:lac.darkgravel		= ['242321', 235]
 let s:lac.blackgravel		= ['1c1b1a', 233]
 let s:lac.blackestgravel	= ['141413', 232]
 
-" A matte violet
-let s:lac.matteviolet = ['8f91bf', 141]
+let s:lac.wintrygray = ['354d4f', 97]
 
 " Dark, bleak, palid, wintery colours of nature
 let s:lac.lichen = ['515744', 58]
@@ -81,7 +80,7 @@ let s:lac.deeplake = ['003b7f', 20]
 " Actually, a purple kind of a raspberry
 let s:lac.raspberry = ['ab3e5b', 161]
 let s:lac.oakleaf = ['384928', 100]
-let s:lac.ice = ['cef2f2', 50]
+let s:lac.crystallake = ['1693a5', 62]
 
 " Sky-inspired colours. Did I tell you I love astronomy?
 let s:lac.coldsky = ['081c8c', 18]
@@ -159,7 +158,7 @@ call s:HL('CursorLine',   '', 'darkgravel', 'none')
 call s:HL('CursorColumn', '', 'darkgravel')
 call s:HL('ColorColumn',  '', 'darkgravel')
 
-call s:HL('MatchParen', 'ice', 'darkgravel', 'bold')
+call s:HL('MatchParen', 'crystallake', 'darkgravel', 'bold')
 
 call s:HL('NonText',    'deepgravel', 'bg')
 call s:HL('SpecialKey', 'deepgravel', 'bg')
@@ -177,9 +176,9 @@ call s:HL('StatusLineNC', 'wetcoldterrain', 'deepgravel', 'bold')
 
 call s:HL('Directory', 'tundrariver', '', 'bold')
 
-call s:HL('Title', 'ice')
+call s:HL('Title', 'crystallake')
 
-call s:HL('ErrorMsg',   'matteviolet',       'bg', 'bold')
+call s:HL('ErrorMsg',   'wintrygray',       'bg', 'bold')
 call s:HL('MoreMsg',    'raspberry',   '',   'bold')
 call s:HL('ModeMsg',    'tundrariver', '',   'bold')
 call s:HL('Question',   'tundrariver', '',   'bold')
@@ -213,34 +212,34 @@ call s:HL('Special', 'plain')
 
 " Comments are slightly brighter than folds, to make 'headers' easier to see.
 call s:HL('Comment',        'gravel')
-call s:HL('Todo',           'matteviolet', 'snow', 'bold')
+call s:HL('Todo',           'wintrygray', 'snow', 'bold')
 call s:HL('SpecialComment', 'snow', 'bg', 'bold')
 
-" Strings are a nice, pale straw color.  Nothing too fancy.
+" Strings are a ncrystallake, pale straw color.  Nothing too fancy.
 call s:HL('String', 'tundrariver')
 
-" Control flow stuff is matteviolet.
-call s:HL('Statement',   'matteviolet', '', 'bold')
-call s:HL('Keyword',     'matteviolet', '', 'bold')
-call s:HL('Conditional', 'matteviolet', '', 'bold')
-call s:HL('Operator',    'matteviolet', '', 'none')
-call s:HL('Label',       'matteviolet', '', 'none')
-call s:HL('Repeat',      'matteviolet', '', 'none')
+" Control flow stuff is wintrygray.
+call s:HL('Statement',   'wintrygray', '', 'bold')
+call s:HL('Keyword',     'wintrygray', '', 'bold')
+call s:HL('Conditional', 'wintrygray', '', 'bold')
+call s:HL('Operator',    'wintrygray', '', 'none')
+call s:HL('Label',       'wintrygray', '', 'none')
+call s:HL('Repeat',      'wintrygray', '', 'none')
 
 " Functions and variable declarations are orange, because plain looks weird.
 call s:HL('Identifier', 'arcticsunrise', '', 'none')
 call s:HL('Function',   'arcticsunrise', '', 'none')
 
-" Preprocessor stuff is ice, to make it pop.
+" Preprocessor stuff is crystallake, to make it pop.
 "
 " This includes imports in any given language, because they should usually be
 " grouped together at the beginning of a file.  If they're in the middle of some
 " other code they should stand out, because something tricky is
 " probably going on.
-call s:HL('PreProc',   'ice', '', 'none')
-call s:HL('Macro',     'ice', '', 'none')
-call s:HL('Define',    'ice', '', 'none')
-call s:HL('PreCondit', 'ice', '', 'bold')
+call s:HL('PreProc',   'crystallake', '', 'none')
+call s:HL('Macro',     'crystallake', '', 'none')
+call s:HL('Define',    'crystallake', '', 'none')
+call s:HL('PreCondit', 'crystallake', '', 'bold')
 
 " Constants of all kinds are colored together.
 call s:HL('Constant',  'dilutedpaint', '', 'bold')
@@ -254,15 +253,15 @@ call s:HL('Float',  'dilutedpaint', '', 'bold')
 call s:HL('SpecialChar', 'coldsky', '', 'bold')
 
 call s:HL('Type', 'darkestnight', '', 'none')
-call s:HL('StorageClass', 'matteviolet', '', 'none')
-call s:HL('Structure', 'matteviolet', '', 'none')
-call s:HL('Typedef', 'matteviolet', '', 'bold')
+call s:HL('StorageClass', 'wintrygray', '', 'none')
+call s:HL('Structure', 'wintrygray', '', 'none')
+call s:HL('Typedef', 'wintrygray', '', 'bold')
 
 " Make try/catch blocks stand out.
-call s:HL('Exception', 'ice', '', 'bold')
+call s:HL('Exception', 'crystallake', '', 'bold')
 
 " Misc
-call s:HL('Error',  'snow',   'matteviolet', 'bold')
+call s:HL('Error',  'snow',   'wintrygray', 'bold')
 call s:HL('Debug',  'snow',   '',      'bold')
 call s:HL('Ignore', 'gravel', '',      '')
 
@@ -300,7 +299,7 @@ endif
 " CtrlP {{{
 
     " the message when no match is found
-    call s:HL('CtrlPNoEntries', 'snow', 'matteviolet', 'bold')
+    call s:HL('CtrlPNoEntries', 'snow', 'wintrygray', 'bold')
 
     " the matched pattern
     call s:HL('CtrlPMatch', 'arcticsunrise', 'bg', 'none')
@@ -368,12 +367,12 @@ call s:HL('cConstant', 'darkestnight', 'bg')
 
 " Clojure {{{
 
-call s:HL('clojureSpecial',  'matteviolet', '', '')
-call s:HL('clojureDefn',     'matteviolet', '', '')
-call s:HL('clojureDefMacro', 'matteviolet', '', '')
-call s:HL('clojureDefine',   'matteviolet', '', '')
-call s:HL('clojureMacro',    'matteviolet', '', '')
-call s:HL('clojureCond',     'matteviolet', '', '')
+call s:HL('clojureSpecial',  'wintrygray', '', '')
+call s:HL('clojureDefn',     'wintrygray', '', '')
+call s:HL('clojureDefMacro', 'wintrygray', '', '')
+call s:HL('clojureDefine',   'wintrygray', '', '')
+call s:HL('clojureMacro',    'wintrygray', '', '')
+call s:HL('clojureCond',     'wintrygray', '', '')
 
 call s:HL('clojureKeyword', 'arcticsunrise', '', 'none')
 
@@ -411,7 +410,7 @@ call s:HL('cssClassName', 'arcticsunrise', '', 'none')
 " Crontab {{{
 
 call s:HL('crontabMin', 'lichen', '')
-call s:HL('crontabHr', 'ice', '')
+call s:HL('crontabHr', 'crystallake', '')
 call s:HL('crontabDay', 'dilutedpaint', '')
 call s:HL('crontabMnth', 'coldsky', '')
 call s:HL('crontabMnth12', 'coldsky', '')
@@ -425,9 +424,9 @@ call s:HL('crontabCmd', 'tundrariver', '')
 call s:HL('gitDiff', 'wetcoldterrain', '',)
 
 call s:HL('diffRemoved', 'coldsky', '',)
-call s:HL('diffAdded', 'ice', '',)
-call s:HL('diffFile', 'coal', 'matteviolet', 'bold')
-call s:HL('diffNewFile', 'coal', 'matteviolet', 'bold')
+call s:HL('diffAdded', 'crystallake', '',)
+call s:HL('diffFile', 'coal', 'wintrygray', 'bold')
+call s:HL('diffNewFile', 'coal', 'wintrygray', 'bold')
 
 call s:HL('diffLine', 'coal', 'arcticsunrise', 'bold')
 call s:HL('diffSubname', 'arcticsunrise', '', 'none')
@@ -446,8 +445,8 @@ call s:HL('djangoVarBlock', 'arcticsunrise', '')
 
 call s:HL('fsOptionsGeneral', 'stainonsnow', '')
 call s:HL('fsOptionsKeywords', 'stainonsnow', '')
-call s:HL('fsTypeKeyword', 'matteviolet', '')
-call s:HL('fsMountPoint', 'ice', '')
+call s:HL('fsTypeKeyword', 'wintrygray', '')
+call s:HL('fsMountPoint', 'crystallake', '')
 
 " }}}
 " Haskell {{{
@@ -466,7 +465,7 @@ call s:HL('htmlEndTag', 'darkestnight', 'bg', 'none')
 " Tag names
 call s:HL('htmlTagName',        'stainonsnow', '', 'bold')
 call s:HL('htmlSpecialTagName', 'stainonsnow', '', 'bold')
-call s:HL('htmlSpecialChar',    'ice',   '', 'none')
+call s:HL('htmlSpecialChar',    'crystallake',   '', 'none')
 
 " Attributes
 call s:HL('htmlArg', 'stainonsnow', '', 'none')
@@ -482,8 +481,8 @@ endif
 " }}}
 " Java {{{
 
-call s:HL('javaClassDecl', 'matteviolet', '', 'bold')
-call s:HL('javaScopeDecl', 'matteviolet', '', 'bold')
+call s:HL('javaClassDecl', 'wintrygray', '', 'bold')
+call s:HL('javaScopeDecl', 'wintrygray', '', 'bold')
 call s:HL('javaCommentTitle', 'gravel', '')
 call s:HL('javaDocTags', 'snow', '', 'none')
 call s:HL('javaDocParam', 'raspberry', '', '')
@@ -491,7 +490,7 @@ call s:HL('javaDocParam', 'raspberry', '', '')
 " }}}
 " LessCSS {{{
 
-call s:HL('lessVariable', 'ice', '', 'none')
+call s:HL('lessVariable', 'crystallake', '', 'none')
 
 " }}}
 " Lua {{{
@@ -563,8 +562,8 @@ call s:HL('pythonEscape',      'stainonsnow')
 call s:HL('pythonException',   'coldsky', '', 'bold')
 call s:HL('pythonExceptions',  'coldsky', '', 'none')
 call s:HL('pythonPrecondit',   'coldsky', '', 'none')
-call s:HL('pythonInclude',	   'matteviolet', '', 'none')
-call s:HL('pythonDecorator',   'matteviolet', '', 'none')
+call s:HL('pythonInclude',	   'wintrygray', '', 'none')
+call s:HL('pythonDecorator',   'wintrygray', '', 'none')
 call s:HL('pythonRun',         'gravel', '', 'bold')
 call s:HL('pythonCoding',      'gravel', '', 'bold')
 call s:HL('pythonString',	   'raspberry', '', 'none')
@@ -591,10 +590,10 @@ call s:HL('hlLevel9', 'stainonsnow')
 
 call s:HL('VimCommentTitle', 'wetcoldterrain', '', 'bold')
 
-call s:HL('VimMapMod',    'matteviolet', '', 'none')
-call s:HL('VimMapModKey', 'matteviolet', '', 'none')
-call s:HL('VimNotation', 'matteviolet', '', 'none')
-call s:HL('VimBracket', 'matteviolet', '', 'none')
+call s:HL('VimMapMod',    'wintrygray', '', 'none')
+call s:HL('VimMapModKey', 'wintrygray', '', 'none')
+call s:HL('VimNotation', 'wintrygray', '', 'none')
+call s:HL('VimBracket', 'wintrygray', '', 'none')
 
 endif
 " }}}
