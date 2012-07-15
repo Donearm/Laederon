@@ -1,0 +1,14 @@
+#Laederon
+
+A color scheme for Vim with cold, nature-inspired colours on a white background. It's the opposite of Ubaryd, basically.
+It's a "fork" of [Ubaryd](http://github.com/Donearm/Ubaryd). A work in progress still so feel free to pull request/fork.
+
+##Screenshots
+
+Screens to come...
+
+#Credits
+
+Many, many thanks to [Steve Losh](http://stevelosh.com) and his [Bad Wolf](https://github.com/sjl/badwolf/tree/)
+that was of profound inspiration for this scheme. Without his work, Laederon wouldn't be born (and I'd still be 
+using an ugly Vim theme...)
