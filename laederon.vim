@@ -78,9 +78,9 @@ let s:lac.matteviolet = ['8f91bf', 141]
 let s:lac.lichen = ['515744', 58]
 let s:lac.darkbark = ['402924', 52]
 let s:lac.deeplake = ['003b7f', 20]
-" Imagine a quite ugly bamboo stick. Never seen one? Me neither.
-let s:lac.bleakbamboo = ['d5c4ae', 221]
-let s:lac.spentrose = ['d0b9bf', 181]
+" Actually, a purple kind of a raspberry
+let s:lac.raspberry = ['ab3e5b', 161]
+let s:lac.oakleaf = ['384928', 100]
 let s:lac.ice = ['cef2f2', 50]
 
 " Sky-inspired colours. Did I tell you I love astronomy?
@@ -149,7 +149,7 @@ endif
 
 " General/UI {{{
 
-call s:HL('Normal', 'plain', 'blackestgravel')
+call s:HL('Normal', 'blackestgravel', 'plain')
 
 call s:HL('Folded', 'coldair', 'bg', 'none')
 
@@ -159,7 +159,7 @@ call s:HL('CursorLine',   '', 'darkgravel', 'none')
 call s:HL('CursorColumn', '', 'darkgravel')
 call s:HL('ColorColumn',  '', 'darkgravel')
 
-call s:HL('MatchParen', 'bleakbamboo', 'darkgravel', 'bold')
+call s:HL('MatchParen', 'ice', 'darkgravel', 'bold')
 
 call s:HL('NonText',    'deepgravel', 'bg')
 call s:HL('SpecialKey', 'deepgravel', 'bg')
@@ -167,20 +167,20 @@ call s:HL('SpecialKey', 'deepgravel', 'bg')
 call s:HL('Visual',    '',  'deepgravel')
 call s:HL('VisualNOS', '',  'deepgravel')
 
-call s:HL('Search',    'coal', 'bleakbamboo', 'bold')
+call s:HL('Search',    'coal', 'raspberry', 'bold')
 call s:HL('IncSearch', 'coal', 'darkbark',    'bold')
 
 call s:HL('Underlined', 'fg', '', 'underline')
 
 call s:HL('StatusLine',   'snow', 'deepgravel',     'bold')
-call s:HL('StatusLineNC', 'deeplake', 'deepgravel', 'bold')
+call s:HL('StatusLineNC', 'wetcoldterrain', 'deepgravel', 'bold')
 
 call s:HL('Directory', 'tundrariver', '', 'bold')
 
 call s:HL('Title', 'ice')
 
 call s:HL('ErrorMsg',   'matteviolet',       'bg', 'bold')
-call s:HL('MoreMsg',    'bleakbamboo',   '',   'bold')
+call s:HL('MoreMsg',    'raspberry',   '',   'bold')
 call s:HL('ModeMsg',    'tundrariver', '',   'bold')
 call s:HL('Question',   'tundrariver', '',   'bold')
 call s:HL('WarningMsg', 'coldsky',       '',   'bold')
@@ -287,10 +287,10 @@ call s:HL('DiffText',   'snow', 'deepergravel', 'bold')
 " Spelling {{{
 
 if has("spell")
-    call s:HL('SpellCap', 'bleakbamboo', 'bg', 'undercurl,bold', 'bleakbamboo')
-    call s:HL('SpellBad', '', '', '', 'bleakbamboo')
-    call s:HL('SpellLocal', '', '', '', 'bleakbamboo')
-    call s:HL('SpellRare', '', '', '', 'bleakbamboo')
+    call s:HL('SpellCap', 'raspberry', 'bg', 'undercurl,bold', 'raspberry')
+    call s:HL('SpellBad', '', '', '', 'raspberry')
+    call s:HL('SpellLocal', '', '', '', 'raspberry')
+    call s:HL('SpellRare', '', '', '', 'raspberry')
 endif
 
 " }}}
@@ -361,7 +361,7 @@ call s:HL('ShowMarksHLm', 'darkbark', 'blackgravel')
 
 " C {{{
 
-call s:HL('cType', 'spentrose', 'bg')
+call s:HL('cType', 'oakleaf', 'bg')
 call s:HL('cStructure', 'arcticsunrise', 'bg')
 call s:HL('cConstant', 'darkestnight', 'bg')
 
@@ -416,8 +416,8 @@ call s:HL('crontabHr', 'ice', '')
 call s:HL('crontabDay', 'dilutedpaint', '')
 call s:HL('crontabMnth', 'coldsky', '')
 call s:HL('crontabMnth12', 'coldsky', '')
-call s:HL('crontabDow', 'spentrose', '')
-call s:HL('crontabDow7', 'spentrose', '')
+call s:HL('crontabDow', 'oakleaf', '')
+call s:HL('crontabDow7', 'oakleaf', '')
 call s:HL('crontabCmd', 'tundrariver', '')
 
 " }}}
@@ -453,7 +453,7 @@ call s:HL('fsMountPoint', 'ice', '')
 " }}}
 " Haskell {{{
 
-call s:HL('hsVarSym', 'spentrose', '')
+call s:HL('hsVarSym', 'oakleaf', '')
 call s:HL('hsStatement', 'darkbark', '')
 call s:HL('hsConditional', 'darkbark', '')
 
@@ -487,7 +487,7 @@ call s:HL('javaClassDecl', 'matteviolet', '', 'bold')
 call s:HL('javaScopeDecl', 'matteviolet', '', 'bold')
 call s:HL('javaCommentTitle', 'gravel', '')
 call s:HL('javaDocTags', 'snow', '', 'none')
-call s:HL('javaDocParam', 'bleakbamboo', '', '')
+call s:HL('javaDocParam', 'raspberry', '', '')
 
 " }}}
 " LessCSS {{{
@@ -531,7 +531,7 @@ call s:HL('markdownOrderedListMarker', 'stainonsnow', '', 'bold')
 call s:HL('markdownListMarker', 'stainonsnow', '', 'bold')
 call s:HL('markdownItalic', 'snow', '', 'bold')
 call s:HL('markdownBold', 'snow', '', 'bold')
-call s:HL('markdownH1', 'spentrose', '', 'bold')
+call s:HL('markdownH1', 'oakleaf', '', 'bold')
 call s:HL('markdownH2', 'arcticsunrise', '', 'bold')
 call s:HL('markdownH3', 'arcticsunrise', '', 'none')
 call s:HL('markdownH4', 'arcticsunrise', '', 'none')
@@ -541,7 +541,7 @@ call s:HL('markdownIdDeclaration', 'dilutedpaint')
 call s:HL('markdownAutomaticLink', 'dilutedpaint', '', 'bold')
 call s:HL('markdownUrl', 'dilutedpaint', '', 'bold')
 call s:HL('markdownUrlDelimiter', 'wetcoldterrain', '', 'bold')
-call s:HL('markdownLinkText', 'bleakbamboo', '', 'underline')
+call s:HL('markdownLinkText', 'raspberry', '', 'underline')
 call s:HL('markdownLinkDelimiter', 'wetcoldterrain', '', 'bold')
 call s:HL('markdownLinkTextDelimiter', 'wetcoldterrain', '', 'bold')
 call s:HL('markdownCodeDelimiter', 'darkestnight', '', 'bold')
@@ -564,12 +564,13 @@ call s:HL('pythonEscape',      'stainonsnow')
 call s:HL('pythonException',   'coldsky', '', 'bold')
 call s:HL('pythonExceptions',  'coldsky', '', 'none')
 call s:HL('pythonPrecondit',   'coldsky', '', 'none')
-call s:HL('pythonInclude',	   'spentrose', '', 'none')
+call s:HL('pythonInclude',	   'matteviolet', '', 'none')
 call s:HL('pythonDecorator',   'matteviolet', '', 'none')
 call s:HL('pythonRun',         'gravel', '', 'bold')
 call s:HL('pythonCoding',      'gravel', '', 'bold')
-call s:HL('pythonString',	   'dilutedpaint', '', 'none')
-call s:HL('pythonStatement',   'matteviolet', '', 'bold')
+call s:HL('pythonString',	   'raspberry', '', 'none')
+call s:HL('pythonStatement',   'oakleaf', '', 'bold')
+call s:HL('pythonFunction',		'lichen', '', 'none')
 
 " }}}
 " SLIMV {{{
