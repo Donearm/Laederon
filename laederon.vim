@@ -208,14 +208,13 @@ call s:HL('iCursor', 'coal', 'darkbark', 'none')
 " Syntax highlighting {{{
 
 " Start with a simple base.
-call s:HL('Special', 'plain')
+call s:HL('Special', 'tundrariver')
 
 " Comments are slightly brighter than folds, to make 'headers' easier to see.
 call s:HL('Comment',        'gravel')
 call s:HL('Todo',           'wintrygray', 'snow', 'bold')
 call s:HL('SpecialComment', 'snow', 'bg', 'bold')
 
-" Strings are a ncrystallake, pale straw color.  Nothing too fancy.
 call s:HL('String', 'tundrariver')
 
 " Control flow stuff is wintrygray.
@@ -226,7 +225,7 @@ call s:HL('Operator',    'wintrygray', '', 'none')
 call s:HL('Label',       'wintrygray', '', 'none')
 call s:HL('Repeat',      'wintrygray', '', 'none')
 
-" Functions and variable declarations are orange, because plain looks weird.
+" Functions and variable declarations are arcticsunrise, because plain looks weird.
 call s:HL('Identifier', 'arcticsunrise', '', 'none')
 call s:HL('Function',   'arcticsunrise', '', 'none')
 
