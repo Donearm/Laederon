@@ -79,7 +79,7 @@ let s:lac.darkbark = ['402924', 52]
 let s:lac.deeplake = ['003b7f', 20]
 " Actually, a purple kind of a raspberry
 let s:lac.raspberry = ['ab3e5b', 161]
-let s:lac.oakleaf = ['384928', 100]
+let s:lac.oakleaf = ['4e502e', 58]
 let s:lac.crystallake = ['1693a5', 62]
 
 " Sky-inspired colours. Did I tell you I love astronomy?
