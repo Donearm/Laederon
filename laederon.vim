@@ -243,7 +243,6 @@ call s:HL('Define',    'ice', '', 'none')
 call s:HL('PreCondit', 'ice', '', 'bold')
 
 " Constants of all kinds are colored together.
-" I'm not really happy with the color yet...
 call s:HL('Constant',  'dilutedpaint', '', 'bold')
 call s:HL('Character', 'dilutedpaint', '', 'bold')
 call s:HL('Boolean',   'dilutedpaint', '', 'bold')
