@@ -81,12 +81,11 @@ let s:lac.deeplake = ['003b7f', 20]
 let s:lac.raspberry = ['ab3e5b', 161]
 let s:lac.oakleaf = ['4e502e', 58]
 let s:lac.crystallake = ['1693a5', 62]
+let s:lac.trunk = ['594512', 58]
 
 " Sky-inspired colours. Did I tell you I love astronomy?
 let s:lac.coldsky = ['081c8c', 18]
-let s:lac.darkestnight = ['1d1826', 236]
-" Never actually seen a sunrise in the arctic but whatever...
-let s:lac.arcticsunrise = ['fcb796', 173]
+let s:lac.darkestnight = ['2f3a78', 19]
 
 " Imagine a dark green paint diluted in too much water
 let s:lac.dilutedpaint = ['90a680', 64]
@@ -225,9 +224,9 @@ call s:HL('Operator',    'wintrygray', '', 'none')
 call s:HL('Label',       'wintrygray', '', 'none')
 call s:HL('Repeat',      'wintrygray', '', 'none')
 
-" Functions and variable declarations are arcticsunrise, because plain looks weird.
-call s:HL('Identifier', 'arcticsunrise', '', 'none')
-call s:HL('Function',   'arcticsunrise', '', 'none')
+" Functions and variable declarations are trunk, because plain looks weird.
+call s:HL('Identifier', 'trunk', '', 'none')
+call s:HL('Function',   'trunk', '', 'none')
 
 " Preprocessor stuff is crystallake, to make it pop.
 "
@@ -301,7 +300,7 @@ endif
     call s:HL('CtrlPNoEntries', 'snow', 'wintrygray', 'bold')
 
     " the matched pattern
-    call s:HL('CtrlPMatch', 'arcticsunrise', 'bg', 'none')
+    call s:HL('CtrlPMatch', 'trunk', 'bg', 'none')
 
     " the line prefix '>' in the match window
     call s:HL('CtrlPLinePre', 'deepgravel', 'bg', 'none')
@@ -359,7 +358,7 @@ call s:HL('ShowMarksHLm', 'darkbark', 'blackgravel')
 " C {{{
 
 call s:HL('cType', 'oakleaf', 'bg')
-call s:HL('cStructure', 'arcticsunrise', 'bg')
+call s:HL('cStructure', 'trunk', 'bg')
 call s:HL('cConstant', 'darkestnight', 'bg')
 
 " }}}
@@ -373,7 +372,7 @@ call s:HL('clojureDefine',   'wintrygray', '', '')
 call s:HL('clojureMacro',    'wintrygray', '', '')
 call s:HL('clojureCond',     'wintrygray', '', '')
 
-call s:HL('clojureKeyword', 'arcticsunrise', '', 'none')
+call s:HL('clojureKeyword', 'trunk', '', 'none')
 
 call s:HL('clojureFunc',   'coldsky', '', 'none')
 call s:HL('clojureRepeat', 'coldsky', '', 'none')
@@ -402,8 +401,8 @@ end
 call s:HL('cssValueLength', 'dilutedpaint', '', 'bold')
 call s:HL('cssColor', 'dilutedpaint', '', 'bold')
 call s:HL('cssBraces', 'wetcoldterrain', '', 'none')
-call s:HL('cssIdentifier', 'arcticsunrise', '', 'bold')
-call s:HL('cssClassName', 'arcticsunrise', '', 'none')
+call s:HL('cssIdentifier', 'trunk', '', 'bold')
+call s:HL('cssClassName', 'trunk', '', 'none')
 
 " }}}
 " Crontab {{{
@@ -427,15 +426,15 @@ call s:HL('diffAdded', 'crystallake', '',)
 call s:HL('diffFile', 'coal', 'wintrygray', 'bold')
 call s:HL('diffNewFile', 'coal', 'wintrygray', 'bold')
 
-call s:HL('diffLine', 'coal', 'arcticsunrise', 'bold')
-call s:HL('diffSubname', 'arcticsunrise', '', 'none')
+call s:HL('diffLine', 'coal', 'trunk', 'bold')
+call s:HL('diffSubname', 'trunk', '', 'none')
 
 " }}}
 " Django Templates {{{
 
 call s:HL('djangoArgument', 'tundrariver', '',)
-call s:HL('djangoTagBlock', 'arcticsunrise', '')
-call s:HL('djangoVarBlock', 'arcticsunrise', '')
+call s:HL('djangoTagBlock', 'trunk', '')
+call s:HL('djangoVarBlock', 'trunk', '')
 " hi djangoStatement guifg=#ff3853 gui=bold
 " hi djangoVarBlock guifg=#f4cf86
 
@@ -499,7 +498,7 @@ call s:HL('luaFunc', 'stainonsnow', '')
 " }}}
 " Mail {{{
 
-call s:HL('mailSubject', 'arcticsunrise', '', 'bold')
+call s:HL('mailSubject', 'trunk', '', 'bold')
 call s:HL('mailHeader', 'wetcoldterrain', '', '')
 call s:HL('mailHeaderKey', 'wetcoldterrain', '', '')
 call s:HL('mailHeaderEmail', 'stainonsnow', '', '')
@@ -529,11 +528,11 @@ call s:HL('markdownListMarker', 'stainonsnow', '', 'bold')
 call s:HL('markdownItalic', 'snow', '', 'bold')
 call s:HL('markdownBold', 'snow', '', 'bold')
 call s:HL('markdownH1', 'oakleaf', '', 'bold')
-call s:HL('markdownH2', 'arcticsunrise', '', 'bold')
-call s:HL('markdownH3', 'arcticsunrise', '', 'none')
-call s:HL('markdownH4', 'arcticsunrise', '', 'none')
-call s:HL('markdownH5', 'arcticsunrise', '', 'none')
-call s:HL('markdownH6', 'arcticsunrise', '', 'none')
+call s:HL('markdownH2', 'trunk', '', 'bold')
+call s:HL('markdownH3', 'trunk', '', 'none')
+call s:HL('markdownH4', 'trunk', '', 'none')
+call s:HL('markdownH5', 'trunk', '', 'none')
+call s:HL('markdownH6', 'trunk', '', 'none')
 call s:HL('markdownIdDeclaration', 'dilutedpaint')
 call s:HL('markdownAutomaticLink', 'dilutedpaint', '', 'bold')
 call s:HL('markdownUrl', 'dilutedpaint', '', 'bold')
@@ -574,12 +573,12 @@ call s:HL('pythonFunction',		'lichen', '', 'none')
 
 " Rainbow parentheses
 call s:HL('hlLevel0', 'gravel')
-call s:HL('hlLevel1', 'arcticsunrise')
+call s:HL('hlLevel1', 'trunk')
 call s:HL('hlLevel2', 'lichen')
 call s:HL('hlLevel3', 'coldsky')
 call s:HL('hlLevel4', 'stainonsnow')
 call s:HL('hlLevel5', 'tundrariver')
-call s:HL('hlLevel6', 'arcticsunrise')
+call s:HL('hlLevel6', 'trunk')
 call s:HL('hlLevel7', 'lichen')
 call s:HL('hlLevel8', 'coldsky')
 call s:HL('hlLevel9', 'stainonsnow')
