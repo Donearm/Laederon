@@ -450,8 +450,8 @@ call s:HL('fsMountPoint', 'crystallake', '')
 " Haskell {{{
 
 call s:HL('hsVarSym', 'oakleaf', '')
-call s:HL('hsStatement', 'darkbark', '')
-call s:HL('hsConditional', 'darkbark', '')
+call s:HL('hsStatement', 'raspberry', '')
+call s:HL('hsConditional', 'tundrariver', '')
 
 " }}}
 " HTML {{{
