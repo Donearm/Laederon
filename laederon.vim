@@ -502,7 +502,7 @@ call s:HL('luaFunc', 'stainonsnow', '')
 call s:HL('mailSubject', 'arcticsunrise', '', 'bold')
 call s:HL('mailHeader', 'wetcoldterrain', '', '')
 call s:HL('mailHeaderKey', 'wetcoldterrain', '', '')
-call s:HL('mailHeaderEmail', 'snow', '', '')
+call s:HL('mailHeaderEmail', 'stainonsnow', '', '')
 call s:HL('mailURL', 'dilutedpaint', '', 'underline')
 call s:HL('mailSignature', 'gravel', '', 'none')
 
