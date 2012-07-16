@@ -186,9 +186,6 @@ call s:HL('WarningMsg', 'coldsky',       '',   'bold')
 " This is a ctags tag, not an HTML one.  'Something you can use c-] on'.
 call s:HL('Tag', '', '', 'bold')
 
-" hi IndentGuides                  guibg=#373737
-" hi WildMenu        guifg=#66D9EF guibg=#000000
-
 " }}}
 " Gutter {{{
 
@@ -323,24 +320,11 @@ endif
     " the scanning status
     call s:HL('CtrlPStats', 'coal', 'darkbark', 'bold')
 
-    " TODO: CtrlP extensions.
-    " CtrlPTabExtra  : the part of each line that’s not matched against (Comment)
-    " CtrlPqfLineCol : the line and column numbers in quickfix mode (|s:HL-Search|)
-    " CtrlPUndoT     : the elapsed time in undo mode (|s:HL-Directory|)
-    " CtrlPUndoBr    : the square brackets [] in undo mode (Comment)
-    " CtrlPUndoNr    : the undo number inside [] in undo mode (String)
-
 " }}}
 " EasyMotion {{{
 
 call s:HL('EasyMotionTarget', 'darkbark',     'bg', 'bold')
 call s:HL('EasyMotionShade',  'deepgravel', 'bg')
-
-" }}}
-" Makegreen {{{
-
-" hi GreenBar term=reverse ctermfg=white ctermbg=green guifg=coal guibg=#9edf1c
-" hi RedBar   term=reverse ctermfg=white ctermbg=red guifg=white guibg=#C50048
 
 " }}}
 " ShowMarks {{{
@@ -435,8 +419,6 @@ call s:HL('diffSubname', 'trunk', '', 'none')
 call s:HL('djangoArgument', 'tundrariver', '',)
 call s:HL('djangoTagBlock', 'trunk', '')
 call s:HL('djangoVarBlock', 'trunk', '')
-" hi djangoStatement guifg=#ff3853 gui=bold
-" hi djangoVarBlock guifg=#f4cf86
 
 " }}}
 " Fstab {{{
