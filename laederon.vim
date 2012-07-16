@@ -212,7 +212,7 @@ call s:HL('Special', 'tundrariver')
 " Comments are slightly brighter than folds, to make 'headers' easier to see.
 call s:HL('Comment',        'gravel')
 call s:HL('Todo',           'wintrygray', 'snow', 'bold')
-call s:HL('SpecialComment', 'snow', 'bg', 'bold')
+call s:HL('SpecialComment', 'crystallake', 'bg', 'bold')
 
 call s:HL('String', 'tundrariver')
 
@@ -259,8 +259,8 @@ call s:HL('Typedef', 'wintrygray', '', 'bold')
 call s:HL('Exception', 'crystallake', '', 'bold')
 
 " Misc
-call s:HL('Error',  'snow',   'wintrygray', 'bold')
-call s:HL('Debug',  'snow',   '',      'bold')
+call s:HL('Error',  'snow',   'raspberry', 'bold')
+call s:HL('Debug',  'snow',   'blackgravel', 'bold')
 call s:HL('Ignore', 'gravel', '',      '')
 
 " }}}
@@ -379,7 +379,7 @@ call s:HL('clojureRepeat', 'coldsky', '', 'none')
 
 call s:HL('clojureParen0', 'wetcoldterrain', '', 'none')
 
-call s:HL('clojureAnonArg', 'snow', '', 'bold')
+call s:HL('clojureAnonArg', 'tundrariver', '', 'bold')
 
 " }}}
 " CSS {{{
@@ -482,7 +482,7 @@ endif
 call s:HL('javaClassDecl', 'wintrygray', '', 'bold')
 call s:HL('javaScopeDecl', 'wintrygray', '', 'bold')
 call s:HL('javaCommentTitle', 'gravel', '')
-call s:HL('javaDocTags', 'snow', '', 'none')
+call s:HL('javaDocTags', 'wetcoldterrain', '', 'none')
 call s:HL('javaDocParam', 'raspberry', '', '')
 
 " }}}
@@ -525,14 +525,14 @@ call s:HL('markdownHeadingRule', 'wetcoldterrain', '', 'bold')
 call s:HL('markdownHeadingDelimiter', 'wetcoldterrain', '', 'bold')
 call s:HL('markdownOrderedListMarker', 'stainonsnow', '', 'bold')
 call s:HL('markdownListMarker', 'stainonsnow', '', 'bold')
-call s:HL('markdownItalic', 'snow', '', 'bold')
-call s:HL('markdownBold', 'snow', '', 'bold')
+call s:HL('markdownItalic', 'crystallake', '', '')
+call s:HL('markdownBold', 'raspberry', '', 'bold')
 call s:HL('markdownH1', 'oakleaf', '', 'bold')
-call s:HL('markdownH2', 'trunk', '', 'bold')
-call s:HL('markdownH3', 'trunk', '', 'none')
-call s:HL('markdownH4', 'trunk', '', 'none')
-call s:HL('markdownH5', 'trunk', '', 'none')
-call s:HL('markdownH6', 'trunk', '', 'none')
+call s:HL('markdownH2', 'raspberry', '', 'bold')
+call s:HL('markdownH3', 'raspberry', '', 'none')
+call s:HL('markdownH4', 'raspberry', '', 'none')
+call s:HL('markdownH5', 'raspberry', '', 'none')
+call s:HL('markdownH6', 'raspberry', '', 'none')
 call s:HL('markdownIdDeclaration', 'dilutedpaint')
 call s:HL('markdownAutomaticLink', 'dilutedpaint', '', 'bold')
 call s:HL('markdownUrl', 'dilutedpaint', '', 'bold')
