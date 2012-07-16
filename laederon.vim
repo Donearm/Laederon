@@ -71,17 +71,17 @@ let s:lac.darkgravel		= ['2e2d2a', 235]
 let s:lac.blackgravel		= ['201f1d', 233]
 let s:lac.blackestgravel	= ['1a1a18', 232]
 
-let s:lac.wintrygray = ['354d4f', 97]
+let s:lac.wintrygray = ['354d4f', 59]
 
 " Dark, bleak, palid, wintery colours of nature
-let s:lac.lichen = ['515744', 58]
+let s:lac.lichen = ['515744', 101]
 let s:lac.darkbark = ['402924', 52]
 let s:lac.deeplake = ['003b7f', 20]
 " Actually, a purple kind of a raspberry
 let s:lac.raspberry = ['ab3e5b', 161]
 let s:lac.oakleaf = ['4e502e', 58]
 let s:lac.crystallake = ['1693a5', 62]
-let s:lac.trunk = ['594512', 58]
+let s:lac.trunk = ['594512', 94]
 
 " Sky-inspired colours. Did I tell you I love astronomy?
 let s:lac.coldsky = ['081c8c', 18]
@@ -274,8 +274,8 @@ call s:HL('PmenuThumb', 'winterterrain')
 " }}}
 " Diffs {{{
 
-call s:HL('DiffDelete', 'coal', 'coal')
-call s:HL('DiffAdd',    '',     'deepergravel')
+call s:HL('DiffDelete', 'crystallake', 'coal')
+call s:HL('DiffAdd',    'wintrygray',     'deepergravel')
 call s:HL('DiffChange', '',     'darkgravel')
 call s:HL('DiffText',   'snow', 'deepergravel', 'bold')
 
