@@ -486,7 +486,7 @@ call s:HL('texComment', 'raspberry', '', 'none')
 call s:HL('texDelimiter', 'stainonsnow', '', 'none')
 call s:HL('texZone', 'gravel', '', 'none')
 
-augroup badwolf_tex
+augroup laederon_tex 
     au!
 
     au BufRead,BufNewFile *.tex syn region texMathZoneV start="\\(" end="\\)\|%stopzone\>" keepend contains=@texMathZoneGroup
