@@ -467,6 +467,31 @@ call s:HL('javaCommentTitle', 'gravel', '')
 call s:HL('javaDocTags', 'wetcoldterrain', '', 'none')
 call s:HL('javaDocParam', 'raspberry', '', '')
 
+" LaTex {{{
+
+call s:HL('textStatement', 'wintrygray', '', 'none')
+call s:HL('texMathZoneX', 'stainonsnow', '', 'none')
+call s:HL('texMathZoneA', 'stainonsnow', '', 'none')
+call s:HL('texMathZoneB', 'stainonsnow', '', 'none')
+call s:HL('texMathZoneC', 'stainonsnow', '', 'none')
+call s:HL('texMathZoneD', 'stainonsnow', '', 'none')
+call s:HL('texMathZoneE', 'stainonsnow', '', 'none')
+call s:HL('texMathZoneV', 'stainonsnow', '', 'none')
+call s:HL('texMathZoneX', 'stainonsnow', '', 'none')
+call s:HL('texMath', 'stainonsnow', '', 'none')
+call s:HL('texMathMatcher', 'stainonsnow', '', 'none')
+call s:HL('texRefLabel', 'wetcoldterrain', '', 'none')
+call s:HL('texRefZone', 'crystallake', '', 'none')
+call s:HL('texComment', 'raspberry', '', 'none')
+call s:HL('texDelimiter', 'stainonsnow', '', 'none')
+call s:HL('texZone', 'gravel', '', 'none')
+
+augroup badwolf_tex
+    au!
+
+    au BufRead,BufNewFile *.tex syn region texMathZoneV start="\\(" end="\\)\|%stopzone\>" keepend contains=@texMathZoneGroup
+    au BufRead,BufNewFile *.tex syn region texMathZoneX start="\$" skip="\\\\\|\\\$" end="\$\|%stopzone\>" keepend contains=@texMathZoneGroup
+augroup END
 " }}}
 " LessCSS {{{
 
