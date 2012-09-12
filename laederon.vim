@@ -547,9 +547,9 @@ call s:HL('markdownUrlDelimiter', 'wetcoldterrain', '', 'bold')
 call s:HL('markdownLinkText', 'raspberry', '', 'underline')
 call s:HL('markdownLinkDelimiter', 'wetcoldterrain', '', 'bold')
 call s:HL('markdownLinkTextDelimiter', 'wetcoldterrain', '', 'bold')
-call s:HL('markdownCodeDelimiter', 'darkestnight', '', 'bold')
-call s:HL('markdownCode', 'darkestnight', '', 'none')
-call s:HL('markdownCodeBlock', 'darkestnight', '', 'none')
+call s:HL('markdownCodeDelimiter', 'darkbark', '', 'bold')
+call s:HL('markdownCode', 'darkbark', '', 'none')
+call s:HL('markdownCodeBlock', 'darkbark', '', 'none')
 
 " }}}
 " MySQL {{{
