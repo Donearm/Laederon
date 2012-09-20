@@ -431,9 +431,18 @@ call s:HL('fsMountPoint', 'crystallake', '')
 " }}}
 " Haskell {{{
 
-call s:HL('hsVarSym', 'oakleaf', '')
+call s:HL('hsVarSym', 'crystallake', '')
+call s:HL('hsConSym', 'crystallake', '')
 call s:HL('hsStatement', 'raspberry', '')
 call s:HL('hsConditional', 'tundrariver', '')
+call s:HL('hsTypedef', 'tundrariver', '')
+call s:HL('hsStructure', 'tundrariver', '')
+call s:HL('hsType', 'deeplake', '')
+call s:HL('hsMaybe', 'deeplake', '')
+call s:HL('hsBoolean', 'deeplake', '')
+call s:HL('hsExitCode', 'deeplake', '')
+call s:HL('hsOrdering', 'deeplake', '')
+call s:HL('hsDebug', 'deeplake', '')
 
 " }}}
 " HTML {{{
