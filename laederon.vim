@@ -71,16 +71,16 @@ let s:lac.darkgravel		= ['2e2d2a', 235]
 let s:lac.blackgravel		= ['201f1d', 233]
 let s:lac.blackestgravel	= ['1a1a18', 232]
 
-let s:lac.wintrygray = ['354d4f', 59]
-
 " Dark, bleak, palid, wintery colours of nature
 let s:lac.lichen = ['515744', 101]
 let s:lac.darkbark = ['402924', 52]
 let s:lac.deeplake = ['003b7f', 20]
+let s:lac.wintrygray = ['354d4f', 59]
 " Actually, a purple kind of a raspberry
 let s:lac.raspberry = ['ab3e5b', 161]
 let s:lac.oakleaf = ['4e502e', 58]
 let s:lac.crystallake = ['1693a5', 62]
+let s:lac.tundrariver = ['325a73', 24]
 let s:lac.trunk = ['594512', 94]
 
 " Sky-inspired colours. Did I tell you I love astronomy?
@@ -90,8 +90,8 @@ let s:lac.darkestnight = ['2f3a78', 19]
 " Imagine a dark green paint diluted in too much water
 let s:lac.dilutedpaint = ['90a680', 64]
 
+" Basically, a dark gray
 let s:lac.stainonsnow = ['403131', 88]
-let s:lac.tundrariver = ['325a73', 24]
 
 " }}}
 " Highlighting Function {{{
@@ -221,7 +221,7 @@ call s:HL('Operator',    'wintrygray', '', 'none')
 call s:HL('Label',       'wintrygray', '', 'none')
 call s:HL('Repeat',      'wintrygray', '', 'none')
 
-" Functions and variable declarations are trunk, because plain looks weird.
+" Functions and variable declarations are trunk
 call s:HL('Identifier', 'trunk', '', 'none')
 call s:HL('Function',   'trunk', '', 'none')
 
