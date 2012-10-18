@@ -5,7 +5,21 @@ It's a "fork" of [Ubaryd](http://github.com/Donearm/Ubaryd). It's in a beta stat
 
 ##Screenshots
 
-Screens to come...
+####Markdown
+
+![](http://ompldr.org/vZnhkbg/markdown.jpg)
+
+####Screenrc
+
+![](http://ompldr.org/vZnhkaw/screenrc.jpg)
+
+####Python
+
+![](http://ompldr.org/vZnhkbA/python.jpg)
+
+####Lua
+
+![](http://ompldr.org/vZnhkbQ/lua.jpg)
 
 #Credits
 
