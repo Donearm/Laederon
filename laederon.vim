@@ -510,6 +510,8 @@ call s:HL('lessVariable', 'crystallake', '', 'none')
 " Lua {{{
 
 call s:HL('luaFunc', 'stainonsnow', '')
+call s:HL('luaStatement', 'raspberry', '')
+call s:HL('luaConstant', 'darkbark', '', 'bold')
 
 " }}}
 " Mail {{{
