@@ -78,7 +78,7 @@ let s:lac.deeplake = ['003b7f', 20]
 let s:lac.wintrygray = ['354d4f', 59]
 " Actually, a purple kind of a raspberry
 let s:lac.raspberry = ['ab3e5b', 161]
-let s:lac.oakleaf = ['4e502e', 58]
+let s:lac.oakleaf = ['3b9a44', 28]
 let s:lac.crystallake = ['1693a5', 62]
 let s:lac.tundrariver = ['325a73', 24]
 let s:lac.trunk = ['594512', 94]
