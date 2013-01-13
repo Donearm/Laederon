@@ -273,7 +273,7 @@ call s:HL('PmenuThumb', 'winterterrain')
 
 call s:HL('DiffDelete', 'crystallake', 'coal')
 call s:HL('DiffAdd',    'wintrygray',     'deepergravel')
-call s:HL('DiffChange', '',     'darkgravel')
+call s:HL('DiffChange', 'trunk',     'darkgravel')
 call s:HL('DiffText',   'snow', 'deepergravel', 'bold')
 
 " }}}
