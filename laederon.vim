@@ -341,9 +341,12 @@ call s:HL('ShowMarksHLm', 'darkbark', 'blackgravel')
 
 " C {{{
 
-call s:HL('cType', 'oakleaf', 'bg')
+call s:HL('cType', 'raspberry', 'bg')
 call s:HL('cStructure', 'trunk', 'bg')
 call s:HL('cConstant', 'darkestnight', 'bg')
+call s:HL('cStatement', 'tundrariver', 'bg')
+call s:HL('cConditional', 'darkbark', 'bg', 'bold')
+call s:HL('cRepeat', 'lichen', 'bg', 'bold')
 
 " }}}
 
