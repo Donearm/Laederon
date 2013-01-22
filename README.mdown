@@ -7,11 +7,11 @@ basically. Like a "mirror".
 
 ####Markdown
 
-![](http://ompldr.org/vaDZibQ/markdown.jpg)
+![](http://ompldr.org/vaDZieA/markdown.jpg)
 
 ####Tmux.conf
 
-![](http://ompldr.org/vaDZibg/tmux.jpg)
+![](http://ompldr.org/vaDZieQ/tmux.jpg)
 
 ####Python
 
@@ -19,11 +19,11 @@ basically. Like a "mirror".
 
 ####Lua
 
-![](http://ompldr.org/vaDZicA/lua.jpg)
+![](http://ompldr.org/vaDZidw/lua.jpg)
 
 ####C
 
-![](http://ompldr.org/vaDZicQ/c.jpg)
+![](http://ompldr.org/vaDZidg/c.jpg)
 
 #Credits
 
