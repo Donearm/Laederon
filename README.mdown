@@ -7,11 +7,11 @@ basically. Like a "mirror".
 
 ####Markdown
 
-![](http://ompldr.org/vaDZieA/markdown.jpg)
+![](http://ompldr.org/vaDZjMA/markdown.jpg)
 
 ####Tmux.conf
 
-![](http://ompldr.org/vaDZieQ/tmux.jpg)
+![](http://ompldr.org/vaDZjMQ/tmux.jpg)
 
 ####Python
 
