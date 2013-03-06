@@ -63,7 +63,7 @@ let s:lac.coal = ['000000', 16]
 " Some recycled colours from Ubaryd...
 let s:lac.winterterrain		= ['908571', 252]
 let s:lac.wetcoldterrain	= ['8c7f77', 245]
-let s:lac.gravel			= ['857f78', 243]
+let s:lac.gravel			= ['777470', 240]
 let s:lac.coldair			= ['405173', 241]
 let s:lac.deepgravel		= ['44403a', 238]
 let s:lac.deepergravel		= ['35322d', 236]
