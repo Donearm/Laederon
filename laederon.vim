@@ -479,6 +479,10 @@ call s:HL('javaCommentTitle', 'gravel', '')
 call s:HL('javaDocTags', 'wetcoldterrain', '', 'none')
 call s:HL('javaDocParam', 'raspberry', '', '')
 
+" Javascript {{{
+
+call s:HL('javascriptStatement', 'raspberry', '', '')
+
 " LaTex {{{
 
 call s:HL('textStatement', 'wintrygray', '', 'none')
