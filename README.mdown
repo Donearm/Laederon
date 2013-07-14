@@ -7,23 +7,23 @@ basically. Like a "mirror".
 
 ####Markdown
 
-![](http://ompldr.org/vaDZjMA/markdown.jpg)
+![markdown](https://f.cloud.github.com/assets/120833/793955/b3d4b092-ec59-11e2-8882-65cbd2718b83.png)
 
 ####Tmux.conf
 
-![](http://ompldr.org/vaDZjMQ/tmux.jpg)
+![tmux](https://f.cloud.github.com/assets/120833/793957/b3d9a264-ec59-11e2-97e9-9dd5c1d60081.png)
 
 ####Python
 
-![](http://ompldr.org/vaDZibw/python.jpg)
+![python](https://f.cloud.github.com/assets/120833/793956/b3d93b58-ec59-11e2-8750-f16007936bd7.png)
 
 ####Lua
 
-![](http://ompldr.org/vaDZidw/lua.jpg)
+![lua](https://f.cloud.github.com/assets/120833/793954/b3d11180-ec59-11e2-9158-ec6bd46a5414.png)
 
 ####C
 
-![](http://ompldr.org/vaDZidg/c.jpg)
+![c](https://f.cloud.github.com/assets/120833/793953/b3d24104-ec59-11e2-930f-9c8d43fd73ca.png)
 
 #Credits
 
