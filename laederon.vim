@@ -431,6 +431,14 @@ call s:HL('fsOptionsKeywords', 'stainonsnow', '')
 call s:HL('fsTypeKeyword', 'wintrygray', '')
 call s:HL('fsMountPoint', 'crystallake', '')
 
+" Go {{{
+call s:HL('goType', 'oakleaf', '')
+call s:HL('goDeclaration', 'tundrariver', '')
+call s:HL('goStatement', 'raspberry', '')
+call s:HL('goDirective', 'darkbark', '')
+
+" }}}
+
 " }}}
 " Haskell {{{
 
