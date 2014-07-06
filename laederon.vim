@@ -491,6 +491,13 @@ call s:HL('javaDocParam', 'raspberry', '', '')
 
 call s:HL('javascriptStatement', 'raspberry', '', '')
 
+" Json {{{
+
+call s:HL('jsonString', 'stainonsnow', '', '')
+call s:HL('jsonNumber', 'wetcoldterrain', '', '')
+call s:HL('jsonBoolean', 'oakleaf', '', '')
+call s:HL('jsonNull', 'wintrygray', '', 'bold')
+
 " LaTex {{{
 
 call s:HL('textStatement', 'wintrygray', '', 'none')
