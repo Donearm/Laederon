@@ -1,7 +1,7 @@
 #Laederon
 
 A color scheme for Vim with cold, nature-inspired colours on a white background. It's the opposite of [Ubaryd](http://github.com/Donearm/Ubaryd), 
-basically. Like a "mirror".
+basically.
 
 ##Screenshots
 
@@ -24,6 +24,10 @@ basically. Like a "mirror".
 ####C
 
 ![c](https://f.cloud.github.com/assets/120833/793953/b3d24104-ec59-11e2-930f-9c8d43fd73ca.png)
+
+#License
+
+Do Whatever You Want With This As Long As You Credit Where It's Due®
 
 #Credits
 
