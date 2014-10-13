@@ -488,8 +488,16 @@ call s:HL('javaDocTags', 'wetcoldterrain', '', 'none')
 call s:HL('javaDocParam', 'raspberry', '', '')
 
 " Javascript {{{
-
 call s:HL('javascriptStatement', 'raspberry', '', '')
+call s:HL('javaScriptStringD', 'deepgravel', '')
+call s:HL('javaScriptStringS', 'deepgravel', '')
+call s:HL('javaScriptBoolean', 'oakleaf', '')
+call s:HL('javaScriptNull', 'darkbark', '')
+call s:HL('javaScriptFunction', 'coldsky', '')
+call s:HL('javaScriptIdentifier', 'tundrariver', '')
+call s:HL('javaScriptBranch', 'coldsky', '')
+call s:HL('javaScriptConditional', 'raspberry', '', 'bold')
+" }}}
 
 " Json {{{
 
