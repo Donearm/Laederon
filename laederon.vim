@@ -15,7 +15,7 @@
 "
 " Maintainer:	Gianluca Fiore <forod.g@gmail.com>
 " Inspiration:	https://github.com/sjl/badwolf/
-" Last Change:	October 2012
+" Last Change:	October 2014
 " License:		Do Whatever You Want With This As Long As You Credit Where It's Due®
 "
 " }}}
@@ -95,6 +95,7 @@ let s:lac.stainonsnow = ['403131', 88]
 
 " }}}
 " Highlighting Function {{{
+
 function! s:HL(group, fg, ...)
     " Arguments: group, guifg, guibg, gui, guisp
 
@@ -131,6 +132,7 @@ function! s:HL(group, fg, ...)
 
     execute histring
 endfunction
+
 " }}}
 " Configuration Options {{{
 
@@ -143,7 +145,6 @@ endif
 " }}}
 
 " Actual colorscheme ----------------------------------------------------------
-" Vanilla Vim {{{
 
 " General/UI {{{
 
@@ -335,8 +336,6 @@ call s:HL('ShowMarksHLo', 'darkbark', 'blackgravel')
 call s:HL('ShowMarksHLm', 'darkbark', 'blackgravel')
 
 " }}}
-
-" }}}
 " Filetype-specific {{{
 
 " C {{{
@@ -349,7 +348,6 @@ call s:HL('cConditional', 'darkbark', 'bg', 'bold')
 call s:HL('cRepeat', 'lichen', 'bg', 'bold')
 
 " }}}
-
 " Clojure {{{
 
 call s:HL('clojureSpecial',  'wintrygray', '', '')
@@ -431,13 +429,13 @@ call s:HL('fsOptionsKeywords', 'stainonsnow', '')
 call s:HL('fsTypeKeyword', 'wintrygray', '')
 call s:HL('fsMountPoint', 'crystallake', '')
 
+" }}}
 " Go {{{
+
 call s:HL('goType', 'oakleaf', '')
 call s:HL('goDeclaration', 'tundrariver', '')
 call s:HL('goStatement', 'raspberry', '')
 call s:HL('goDirective', 'darkbark', '')
-
-" }}}
 
 " }}}
 " Haskell {{{
@@ -487,7 +485,9 @@ call s:HL('javaCommentTitle', 'gravel', '')
 call s:HL('javaDocTags', 'wetcoldterrain', '', 'none')
 call s:HL('javaDocParam', 'raspberry', '', '')
 
+" }}}
 " Javascript {{{
+
 call s:HL('javascriptStatement', 'raspberry', '', '')
 call s:HL('javaScriptStringD', 'deepgravel', '')
 call s:HL('javaScriptStringS', 'deepgravel', '')
@@ -497,8 +497,8 @@ call s:HL('javaScriptFunction', 'coldsky', '')
 call s:HL('javaScriptIdentifier', 'tundrariver', '')
 call s:HL('javaScriptBranch', 'coldsky', '')
 call s:HL('javaScriptConditional', 'raspberry', '', 'bold')
-" }}}
 
+" }}}
 " Json {{{
 
 call s:HL('jsonString', 'stainonsnow', '', '')
@@ -506,6 +506,7 @@ call s:HL('jsonNumber', 'wetcoldterrain', '', '')
 call s:HL('jsonBoolean', 'oakleaf', '', '')
 call s:HL('jsonNull', 'wintrygray', '', 'bold')
 
+" }}}
 " LaTex {{{
 
 call s:HL('textStatement', 'wintrygray', '', 'none')
@@ -531,6 +532,7 @@ augroup laederon_tex
     au BufRead,BufNewFile *.tex syn region texMathZoneV start="\\(" end="\\)\|%stopzone\>" keepend contains=@texMathZoneGroup
     au BufRead,BufNewFile *.tex syn region texMathZoneX start="\$" skip="\\\\\|\\\$" end="\$\|%stopzone\>" keepend contains=@texMathZoneGroup
 augroup END
+
 " }}}
 " LessCSS {{{
 
