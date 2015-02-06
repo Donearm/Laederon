@@ -178,7 +178,7 @@ call s:HL('Directory', 'tundrariver', '', 'bold')
 
 call s:HL('Title', 'crystallake')
 
-call s:HL('ErrorMsg',   'wintrygray',       'bg', 'bold')
+call s:HL('ErrorMsg',   'wintrygray',       '', 'bold')
 call s:HL('MoreMsg',    'raspberry',   '',   'bold')
 call s:HL('ModeMsg',    'tundrariver', '',   'bold')
 call s:HL('Question',   'tundrariver', '',   'bold')
