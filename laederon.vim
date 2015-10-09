@@ -388,6 +388,7 @@ call s:HL('cssColor', 'dilutedpaint', '', 'bold')
 call s:HL('cssBraces', 'wetcoldterrain', '', 'none')
 call s:HL('cssIdentifier', 'trunk', '', 'bold')
 call s:HL('cssClassName', 'trunk', '', 'none')
+call s:HL('cssImportant', 'raspberry', '', 'bold')
 
 " }}}
 " Crontab {{{
