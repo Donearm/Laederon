@@ -1,6 +1,6 @@
 #Laederon
 
-A color scheme for Vim with cold, nature-inspired colours on a white background. It's the opposite of [Ubaryd](http://github.com/Donearm/Ubaryd), 
+A color scheme for Vim (and Neovim) with cold, nature-inspired colours on a white background. It's the opposite of [Ubaryd](http://github.com/Donearm/Ubaryd), 
 basically.
 
 ##Screenshots
