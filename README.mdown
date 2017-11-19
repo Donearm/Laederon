@@ -27,7 +27,7 @@ basically.
 
 # License
 
-Do Whatever You Want With This As Long As You Credit Where It's Due®
+MIT. See LICENSE
 
 # Credits
 
