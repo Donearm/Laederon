@@ -5,25 +5,21 @@ basically.
 
 ## Screenshots
 
-#### Markdown
+#### Go
 
-![markdown](https://f.cloud.github.com/assets/120833/793955/b3d4b092-ec59-11e2-8882-65cbd2718b83.png)
-
-#### Tmux.conf
-
-![tmux](https://f.cloud.github.com/assets/120833/793957/b3d9a264-ec59-11e2-97e9-9dd5c1d60081.png)
+![go](https://raw.githubusercontent.com/Donearm/Laederon/screenshots/laederon-go.png)
 
 #### Python
 
-![python](https://f.cloud.github.com/assets/120833/793956/b3d93b58-ec59-11e2-8750-f16007936bd7.png)
+![python](https://raw.githubusercontent.com/Donearm/Laederon/screenshots/laederon-python.png)
 
 #### Lua
 
-![lua](https://f.cloud.github.com/assets/120833/793954/b3d11180-ec59-11e2-9158-ec6bd46a5414.png)
+![lua](https://raw.githubusercontent.com/Donearm/Laederon/screenshots/laederon-lua.png)
 
 #### C
 
-![c](https://f.cloud.github.com/assets/120833/793953/b3d24104-ec59-11e2-930f-9c8d43fd73ca.png)
+![c](https://raw.githubusercontent.com/Donearm/Laederon/screenshots/laederon-c.png)
 
 # License
 
