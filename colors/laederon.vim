@@ -178,6 +178,12 @@ call s:HL('ModeMsg',    'youngleaf', '',   'bold')
 call s:HL('Question',   'youngleaf', '',   'bold')
 call s:HL('WarningMsg', 'purplesky',       '',   'bold')
 
+call s:HL('TabLine', 'immatureberry', 'coal')
+call s:HL('TabLineFill', 'immatureberry', 'coal')
+call s:HL('TabLineSel', 'glacierblue', 'coal', 'bold')
+
+call s:HL('QuickFixLine', 'snow', 'blackbark')
+
 " This is a ctags tag, not an HTML one.  'Something you can use c-] on'.
 call s:HL('Tag', '', '', 'bold')
 
@@ -194,6 +200,8 @@ call s:HL('FoldColumn', 'graypine', 'overcast', 'none')
 call s:HL('Cursor',  'coal', 'plum', 'bold')
 call s:HL('vCursor', 'coal', 'plum', 'bold')
 call s:HL('iCursor', 'coal', 'plum', 'none')
+call s:HL('CursorLineNr', 'coal', 'plum', 'none')
+call s:HL('CursorIM', 'coal', 'plum', 'none')
 
 " }}}
 " Syntax highlighting {{{
